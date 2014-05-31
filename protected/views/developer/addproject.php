@@ -38,7 +38,6 @@
 		<?php echo $form->textField($model,'modified'); ?>
 		<?php echo $form->error($model,'modified'); ?>
 	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'status'); ?>
 		<?php echo $form->textField($model,'status'); ?>
