@@ -41,13 +41,11 @@
 		<?php echo $form->textField($model,'status'); ?>
 		<?php echo $form->error($model,'status'); ?>
 	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'description'); ?>
 		<?php echo $form->textArea($model,'description'); ?>
 		<?php echo $form->error($model,'description'); ?>
 	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'start'); ?>
         <?php
